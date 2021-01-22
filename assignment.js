@@ -6,7 +6,7 @@ function kilometerToMeter(kilo){
     var meter = kilo * 1000;
     // check if the kilometer is negative
     if(kilo < 0){
-        return "no negetive input allowed!";
+        return "no negative input allowed!";
     }else{
         return meter;
     }
@@ -25,7 +25,7 @@ function budgetCalculator(clock,phone,laptop){
     // we can include <= condition so that user can not put 0 product input
     // but the instruction was only for negetive numbers
     if(clock < 0 || phone < 0 || laptop < 0){
-        return "product cannot be negetive!";
+        return "product cannot be negative!";
     }else{
         return total;
     }
